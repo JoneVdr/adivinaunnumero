@@ -7,5 +7,5 @@ if numero1 < numero2:
     print("Demasiado alto")
 elif numero1 > numero2:
     print("Demasiado bajo")
-else numero1 = numero2
+else numero1 = numero2:
     print("¡Has ganado!")
