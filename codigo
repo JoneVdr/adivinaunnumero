@@ -1,10 +1,12 @@
 import random
 numero1 = random.randint(0, 100)
-numero2 = input("Introduzca un numero: ")
+numero2 = int(input("Introduzca un numero: "))
 print("Ha introducido el numero: ", numero2)
-if numero1 < numero2:
-    print("Demasiado alto")
-elif numero1 > numero2:
-    print("Demasiado bajo")
-else: numero2 == numero1
-print("¡Has ganado!")
+while True:
+    if numero1 < numero2:
+        print("Demasiado alto")
+    elif numero1 > numero2:
+        print("Demasiado bajo")
+    else: numero2 == numero1
+    print("¡Has ganado!")
+    break
