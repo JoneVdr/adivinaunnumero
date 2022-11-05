@@ -5,8 +5,8 @@ print("Ha introducido el numero: ", numero2)
 while True:
     if numero1 < numero2:
         print("Demasiado alto")
-    if numero1 > numero2:
+    elif numero1 > numero2:
         print("Demasiado bajo")
-    if numero1 == numero2:
+    elif numero1 == numero2:
             print("Has ganado!")
-            break
+    break
