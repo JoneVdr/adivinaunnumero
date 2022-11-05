@@ -5,10 +5,8 @@ print("Ha introducido el numero: ", numero2)
 while True:
     if numero1 < numero2:
         print("Demasiado alto")
-    elif numero1 > numero2:
+    if numero1 > numero2:
         print("Demasiado bajo")
-    elif numero1 == numero2:
-        print("Has ganado!")
-        break
-else:
-    print("¡Has ganado!")
+    if numero1 == numero2:
+            print("Has ganado!")
+            break
