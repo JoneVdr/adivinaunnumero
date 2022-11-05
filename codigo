@@ -8,7 +8,7 @@ while True:
     elif numero1 > numero2:
         print("Demasiado bajo")
     elif numero1 == numero2:
-        print("Has acertado")
+        print("Has ganado!")
         break
 else:
     print("¡Has ganado!")
