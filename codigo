@@ -10,5 +10,5 @@ while True:
         print("Demasiado bajo")
         numero2 = int(input("Introduzca un numero: "))
     elif numero1 == numero2:
-        print("Has ganado!")
+        print("¡Has ganado!")
         break
