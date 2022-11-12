@@ -6,12 +6,16 @@ opciones = {
 }
 def accion1():
     print('nivel simple')
+    numeroS = random.randint(0, 100)
 def accion2():
     print('nivel medio')
+    numeroM = random.randint(0, 1000)
 def accion3():
     print('nivel avanzado')
+    numeroA = random.randint(0, 1000000)
 def accion4():
     print('nivel experto')
+    numeroE = random.randint(0, 1000000000000)
 def menu():
     opciones = {
     '1': ('nivel simple', accion1),
