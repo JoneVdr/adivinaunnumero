@@ -4,6 +4,17 @@ opciones = {
     '3': ('nivel avanzado', accion3),
     '4': ('nivel experto', accion4),
 }
+def accion1():
+    print('nivel simple')
+def accion2():
+    print('nivel medio')
+def accion3():
+    print('nivel avanzado')
+def accion4():
+    print('nivel experto')
+def menu():
+    print('Elige una opción')
+
 import random
 numero1 = random.randint(0, 100)
 numero2 = int(input("Introduzca un numero: "))
