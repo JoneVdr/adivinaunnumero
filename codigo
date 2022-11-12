@@ -13,7 +13,14 @@ def accion3():
 def accion4():
     print('nivel experto')
 def menu():
+    opciones = {
+    '1': ('nivel simple', accion1),
+    '2': ('nivel medio', accion2),
+    '3': ('nivel avanzado', accion3),
+    '4': ('nivel experto', accion4),
+}
     print('Elige una opción')
+generar_menu(opciones)
 
 import random
 numero1 = random.randint(0, 100)
