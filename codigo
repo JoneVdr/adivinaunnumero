@@ -1,8 +1,8 @@
 opciones = {
-    '1': ('nivel simple', accion1)
-    '2': ('nivel intermedio', accion2)
-    '3': ('nivel avanzado', accion3)
-    '4': ('nivel experto', accion4)
+    '1': ('nivel simple', accion1),
+    '2': ('nivel medio', accion2),
+    '3': ('nivel avanzado', accion3),
+    '4': ('nivel experto', accion4),
 }
 import random
 numero1 = random.randint(0, 100)
