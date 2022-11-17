@@ -12,17 +12,20 @@ if (pregunta == 1):
     numeroS = random.randint(0, 100)
     numeroS2 = int(input("introduzca un numero:"))
     intentos = 0
-    while True:
-        intentos += 1
-        if numeroS < numeroS2:
-            print("Demasiado alto")
-            numeroS2 = int(input("Introduzca un numero: "))
-        elif numeroS > numeroS2:
-            print("Demasiado bajo")
-            numeroS2 = int(input("Introduzca un numero: "))
-        elif numeroS == numeroS2:
-            print("¡Has ganado!")
-            break
+    while (intentos < 10):
+        while True:
+            intentos += 1
+            if numeroS < numeroS2:
+                print("Demasiado alto")
+                numeroS2 = int(input("Introduzca un numero: "))
+            elif numeroS > numeroS2:
+                print("Demasiado bajo")
+                numeroS2 = int(input("Introduzca un numero: "))
+            elif numeroS == numeroS2:
+                print("¡Has ganado!")
+                break
+    if intentos == 10:
+        print("Has perdido")
     print ("Has necesitado", intentos, "intentos")
 
 if (pregunta == 2):
@@ -33,17 +36,20 @@ if (pregunta == 2):
     numeroM = random.randint(0, 1000)
     numeroM2 = int(input("introduzca un numero:"))
     intentos = 0
-    while True:
-        intentos +=1
-        if numeroM < numeroM2:
-            print("Demasiado alto")
-            numeroM2 = int(input("Introduzca un numero: "))
-        elif numeroM > numeroM2:
-            print("Demasiado bajo")
-            numeroM2 = int(input("Introduzca un numero: "))
-        elif numeroM == numeroM2:
-            print("¡Has ganado!")
-            break
+    while (intentos < 30):
+        while True:
+            intentos +=1
+            if numeroM < numeroM2:
+                print("Demasiado alto")
+                numeroM2 = int(input("Introduzca un numero: "))
+            elif numeroM > numeroM2:
+                print("Demasiado bajo")
+                numeroM2 = int(input("Introduzca un numero: "))
+            elif numeroM == numeroM2:
+                print("¡Has ganado!")
+                break
+    if intentos == 30:
+        print("Has perdido")
     print ("Has necesitado", intentos, "intentos")
 
 if (pregunta == 3):
@@ -54,17 +60,20 @@ if (pregunta == 3):
     numeroA = random.randint(0, 1000000)
     numeroA2 = int(input("introduzca un numero:"))
     intentos = 0
-    while True:
-        intentos +=1
-        if numeroA < numeroA2:
-            print("Demasiado alto")
-            numeroA2 = int(input("Introduzca un numero: "))
-        elif numeroA > numeroA2:
-            print("Demasiado bajo")
-            numeroA2 = int(input("Introduzca un numero: "))
-        elif numeroA == numeroA2:
-            print("¡Has ganado!")
-            break
+    while (intentos < 50):
+        while True:
+            intentos +=1
+            if numeroA < numeroA2:
+                print("Demasiado alto")
+                numeroA2 = int(input("Introduzca un numero: "))
+            elif numeroA > numeroA2:
+                print("Demasiado bajo")
+                numeroA2 = int(input("Introduzca un numero: "))
+            elif numeroA == numeroA2:
+                print("¡Has ganado!")
+                break
+    if intentos == 50:
+        print("Has perdido")
     print ("Has necesitado", intentos, "intentos")
 
 if (pregunta == 4):
@@ -75,15 +84,18 @@ if (pregunta == 4):
     numeroE = random.randint(0, 1000000000000)
     numeroE2 = int(input("introduzca un numero:"))
     intentos = 0
-    while True:
-        intentos +=1
-        if numeroE < numeroE2:
-            print("Demasiado alto")
-            numeroE2 = int(input("Introduzca un numero: "))
-        elif numeroE > numeroE2:
-            print("Demasiado bajo")
-            numeroE2 = int(input("Introduzca un numero: "))
-        elif numeroE == numeroE2:
-            print("¡Has ganado!")
-            break
+    while (intentos < 100):
+        while True:
+            intentos +=1
+            if numeroE < numeroE2:
+                print("Demasiado alto")
+                numeroE2 = int(input("Introduzca un numero: "))
+            elif numeroE > numeroE2:
+                print("Demasiado bajo")
+                numeroE2 = int(input("Introduzca un numero: "))
+            elif numeroE == numeroE2:
+                print("¡Has ganado!")
+                break
+    if intentos == 100:
+        print("Has perdido")
     print ("Has necesitado", intentos, "intentos")
