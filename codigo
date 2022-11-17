@@ -24,6 +24,7 @@ if (pregunta == 1):
             elif numeroS == numeroS2:
                 print("¡Has ganado!")
                 break
+            break
     if intentos == 10:
         print("Has perdido")
     print ("Has necesitado", intentos, "intentos")
