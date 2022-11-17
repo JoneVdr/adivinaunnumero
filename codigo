@@ -23,7 +23,7 @@ if (pregunta == 1):
         elif numeroS == numeroS2:
             print("¡Has ganado!")
             break
-        print ("Has necesitado", intentos, "intentos")
+    print ("Has necesitado", intentos, "intentos")
 
 if (pregunta == 2):
     print("Nivel 2")
@@ -44,7 +44,7 @@ if (pregunta == 2):
         elif numeroM == numeroM2:
             print("¡Has ganado!")
             break
-        print ("Has necesitado", intentos, "intentos")
+    print ("Has necesitado", intentos, "intentos")
 
 if (pregunta == 3):
     print("Nivel 3")
@@ -65,7 +65,7 @@ if (pregunta == 3):
         elif numeroA == numeroA2:
             print("¡Has ganado!")
             break
-        print ("Has necesitado", intentos, "intentos")
+    print ("Has necesitado", intentos, "intentos")
 
 if (pregunta == 4):
     print("Nivel 4")
@@ -86,4 +86,4 @@ if (pregunta == 4):
         elif numeroE == numeroE2:
             print("¡Has ganado!")
             break
-        print ("Has necesitado", intentos, "intentos")
+    print ("Has necesitado", intentos, "intentos")
