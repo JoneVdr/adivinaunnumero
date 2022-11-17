@@ -11,7 +11,9 @@ if (pregunta == 1):
     import random
     numeroS = random.randint(0, 100)
     numeroS2 = int(input("introduzca un numero:"))
+    intentos = 0
     while True:
+        intentos += 1
         if numeroS < numeroS2:
             print("Demasiado alto")
             numeroS2 = int(input("Introduzca un numero: "))
@@ -21,6 +23,7 @@ if (pregunta == 1):
         elif numeroS == numeroS2:
             print("¡Has ganado!")
             break
+        print ("Has necesitado", intentos, "intentos")
 
 if (pregunta == 2):
     minimo = 0
@@ -28,7 +31,9 @@ if (pregunta == 2):
     import random
     numeroM = random.randint(0, 1000)
     numeroM2 = int(input("introduzca un numero:"))
+    intentos = 0
     while True:
+        intentos +=1
         if numeroM < numeroM2:
             print("Demasiado alto")
             numeroM2 = int(input("Introduzca un numero: "))
@@ -38,6 +43,7 @@ if (pregunta == 2):
         elif numeroM == numeroM2:
             print("¡Has ganado!")
             break
+        print ("Has necesitado", intentos, "intentos")
 
 if (pregunta == 3):
     minimo = 0
@@ -45,7 +51,9 @@ if (pregunta == 3):
     import random
     numeroA = random.randint(0, 1000000)
     numeroA2 = int(input("introduzca un numero:"))
+    intentos = 0
     while True:
+        intentos +=1
         if numeroA < numeroA2:
             print("Demasiado alto")
             numeroA2 = int(input("Introduzca un numero: "))
@@ -55,6 +63,7 @@ if (pregunta == 3):
         elif numeroA == numeroA2:
             print("¡Has ganado!")
             break
+        print ("Has necesitado", intentos, "intentos")
 
 if (pregunta == 4):
     minimo = 0
@@ -62,7 +71,9 @@ if (pregunta == 4):
     import random
     numeroE = random.randint(0, 1000000000000)
     numeroE2 = int(input("introduzca un numero:"))
+    intentos = 0
     while True:
+        intentos +=1
         if numeroE < numeroE2:
             print("Demasiado alto")
             numeroE2 = int(input("Introduzca un numero: "))
@@ -72,3 +83,4 @@ if (pregunta == 4):
         elif numeroE == numeroE2:
             print("¡Has ganado!")
             break
+        print ("Has necesitado", intentos, "intentos")
