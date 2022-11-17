@@ -1,3 +1,4 @@
+Lista1 = input("Intruduzca su nombre: ")
 def menu():
     print("Nivel 1")
     print("Nivel 2")
@@ -24,7 +25,7 @@ if (pregunta == 1):
             elif numeroS == numeroS2:
                 print("¡Has ganado!")
                 break
-            break
+        break
     if intentos == 10:
         print("Has perdido")
     print ("Has necesitado", intentos, "intentos")
@@ -49,6 +50,7 @@ if (pregunta == 2):
             elif numeroM == numeroM2:
                 print("¡Has ganado!")
                 break
+        break
     if intentos == 30:
         print("Has perdido")
     print ("Has necesitado", intentos, "intentos")
@@ -73,6 +75,7 @@ if (pregunta == 3):
             elif numeroA == numeroA2:
                 print("¡Has ganado!")
                 break
+        break
     if intentos == 50:
         print("Has perdido")
     print ("Has necesitado", intentos, "intentos")
@@ -97,6 +100,11 @@ if (pregunta == 4):
             elif numeroE == numeroE2:
                 print("¡Has ganado!")
                 break
+        break
     if intentos == 100:
         print("Has perdido")
     print ("Has necesitado", intentos, "intentos")
+
+puntuaciones = {
+    print(Lista1, intentos)
+}
