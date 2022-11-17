@@ -6,14 +6,12 @@ def menu():
 pregunta = int(input("Selecion de nivel: "))
 print (pregunta)
 if (pregunta == 1):
-    print("Nivel 1")
     minimo = 0
     maximo = 100
     import random
     numeroS = random.randint(0, 100)
     numeroS2 = int(input("introduzca un numero:"))
     print(numeroS2)
-    print ("ha introducido el numero:", numeroS2)
     while True:
         if numeroS < numeroS2:
             print("Demasiado alto")
@@ -28,12 +26,9 @@ if (pregunta == 1):
 if (pregunta == 2):
     minimo = 0
     maximo = 1000
-    print("Nivel 2")
     import random
     numeroM = random.randint(0, 1000)
     numeroM2 = int(input("introduzca un numero:"))
-    print(numeroM2)
-    print ("ha introducido el numero:", numeroM2)
     print(numeroM2)
     while True:
         if numeroM < numeroM2:
@@ -49,11 +44,9 @@ if (pregunta == 2):
 if (pregunta == 3):
     minimo = 0
     maximo = 1000000
-    print("Nivel 3")
     import random
     numeroA = random.randint(0, 1000000)
     numeroA2 = int(input("introduzca un numero:"))
-    print ("ha introducido el numero:", numeroA2)
     while True:
         if numeroA < numeroA2:
             print("Demasiado alto")
@@ -68,11 +61,9 @@ if (pregunta == 3):
 if (pregunta == 4):
     minimo = 0
     maximo = 1000000000000
-    print("Nivel 4")
     import random
     numeroE = random.randint(0, 1000000000000)
     numeroE2 = int(input("introduzca un numero:"))
-    print ("ha introducido el numero:", numeroE2)
     while True:
         if numeroE < numeroE2:
             print("Demasiado alto")
